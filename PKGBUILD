@@ -1,5 +1,5 @@
 pkgname=python-bitstring
-pkgver=3.1.6
+pkgver=3.1.7
 pkgrel=1
 pkgdesc='make the creation and analysis of binary data as simple and natural as possible'
 arch=('any')
@@ -8,7 +8,7 @@ license=('MIT')
 depends=('python')
 options=(!emptydirs)
 source=("https://github.com/scott-griffiths/bitstring/archive/bitstring-$pkgver.tar.gz")
-sha512sums=('d78d91f92f60044948199e4fa5ec48c8007268f725e5230d6c8be44a6ced578e61a2c2f8751822f191a909057f38d358a8c944f357a5f9ea98adb6baae3a0da2')
+sha512sums=('57a48cf279f1e0e2ea8e1ce436cd8c256325f6f9e9ad340b8c28c2954712faf8473e5779aeff4d66b4c596dbeb4cb39ea3328d5c22dcb4d8b0ee0a7098023561')
 
 package() {
   cd bitstring-bitstring-$pkgver
